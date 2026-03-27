@@ -1,0 +1,518 @@
+﻿<!DOCTYPE html>
+
+<html class="light" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Finca Manantial de Vida | Panamá</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400&amp;family=Inter:wght@300;400;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "tertiary-container": "#46220f",
+              "on-surface-variant": "#434843",
+              "error": "#ba1a1a",
+              "surface-container-high": "#eae8e3",
+              "on-tertiary": "#ffffff",
+              "inverse-on-surface": "#f2f1ec",
+              "surface-bright": "#fbf9f4",
+              "on-primary-container": "#819986",
+              "surface": "#fbf9f4",
+              "on-surface": "#1b1c19",
+              "outline-variant": "#c3c8c1",
+              "on-tertiary-fixed-variant": "#663c27",
+              "on-tertiary-fixed": "#321203",
+              "error-container": "#ffdad6",
+              "on-secondary-fixed": "#291801",
+              "secondary-fixed-dim": "#e2c19b",
+              "inverse-primary": "#b4cdb8",
+              "secondary-fixed": "#ffddb6",
+              "on-tertiary-container": "#bd866d",
+              "background": "#fbf9f4",
+              "surface-container-highest": "#e4e2dd",
+              "on-error": "#ffffff",
+              "on-background": "#1b1c19",
+              "on-secondary-container": "#785e3e",
+              "on-primary-fixed": "#0b2013",
+              "secondary-container": "#fddab2",
+              "primary": "#061b0e",
+              "on-error-container": "#93000a",
+              "tertiary": "#2d0e01",
+              "surface-container": "#f0eee9",
+              "inverse-surface": "#30312e",
+              "surface-dim": "#dbdad5",
+              "tertiary-fixed": "#ffdbcc",
+              "primary-fixed": "#d0e9d4",
+              "on-primary-fixed-variant": "#364c3c",
+              "surface-container-lowest": "#ffffff",
+              "on-secondary": "#ffffff",
+              "on-primary": "#ffffff",
+              "tertiary-fixed-dim": "#f6b99d",
+              "surface-variant": "#e4e2dd",
+              "surface-container-low": "#f5f3ee",
+              "secondary": "#735a3a",
+              "on-secondary-fixed-variant": "#594325",
+              "primary-container": "#1b3022",
+              "surface-tint": "#4d6453",
+              "primary-fixed-dim": "#b4cdb8",
+              "outline": "#737973"
+            },
+            fontFamily: {
+              "headline": ["Noto Serif"],
+              "body": ["Noto Serif"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "1.5rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>.film-grain {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 9999;
+    opacity: 0.03;
+    background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuB0Wpewt-GAw-Ea9V8BK27F658BytMwnv-rUUwNbEBi3JXsB_vPDrKUHxwsVPSrjuNRDXS5OCpE2waS5IUkp77N-bjTINKTGIDdvi-mWWBAK4rQWHg_I_-azxtaXD7m67j3mo-F1_iwK-jvSd3n6Q11iM4F569GgniSXAA-VdP318EjXuI0-lKLuaihWouay3-IhAAAX_vPwh0fFedweRJBXrh_DbNPq-ybNi4sh5sPqFTdCVPok9YfPQqxt92NIzxjPgdBMdvHyKc)
+    }
+.material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 24
+    }
+.parallax-bg {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+    }
+.text-shadow-editorial {
+    text-shadow: 0 2px 4px rgba(6, 27, 14, 0.1)
+    }</style>
+</head>
+<body class="bg-background text-primary font-body selection:bg-primary-container selection:text-on-primary-container">
+<div class="film-grain"></div>
+<!-- TopNavBar (Shared Component) -->
+<nav class="fixed top-0 w-full z-50 bg-transparent backdrop-blur-md dark:bg-transparent no-border tonal-transition flat no shadows transition-all duration-400">
+<div class="flex justify-between items-center px-12 py-8 w-full max-w-[1920px] mx-auto">
+<a class="text-2xl font-serif italic text-[#061b0e] dark:text-[#fbf9f4] tracking-tight" href="#">Finca Manantial de Vida</a>
+<div class="hidden md:flex items-center gap-12">
+<a class="font-['Noto_Serif'] font-light tracking-wide text-[#061b0e] dark:text-[#fbf9f4] border-b border-[#061b0e]/20 pb-1" href="#inicio">Inicio</a>
+<a class="font-['Noto_Serif'] font-light tracking-wide text-[#061b0e]/70 dark:text-[#fbf9f4]/70 hover:text-[#061b0e] transition-colors duration-400" href="#experiencias">Experiencias</a>
+<a class="font-['Noto_Serif'] font-light tracking-wide text-[#061b0e]/70 dark:text-[#fbf9f4]/70 hover:text-[#061b0e] transition-colors duration-400" href="#estancias">Estancias</a>
+<a class="font-['Noto_Serif'] font-light tracking-wide text-[#061b0e]/70 dark:text-[#fbf9f4]/70 hover:text-[#061b0e] transition-colors duration-400" href="#contacto">Contacto</a>
+</div>
+<a class="bg-primary text-on-primary px-8 py-3 rounded-full font-label text-xs uppercase tracking-widest hover:opacity-80 transition-opacity duration-400" href="#contacto">
+                Contactar
+            </a>
+</div>
+</nav>
+<main>
+<!-- Hero Section -->
+<section class="relative h-screen w-full flex items-center justify-center overflow-hidden" id="inicio">
+<div class="absolute inset-0 z-0">
+<img alt="Mist covered volcanic mountains of Panama highlands" class="w-full h-full object-cover" data-alt="Cinematic wide shot of lush volcanic mountains in Panama covered in morning mist and golden sunrise light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDQyGGz2gZ7RvWMR921hXLkM7ZELsc57GcIAQrjXuP6BbQhgATKZOas6_NOzkmfIOt93U0FYcchzjdZuoiUUxWp1BgwY_oJh7RRkSiTWLze1BKIhbScqSrTGc3-mOA4tnLcr2QKlKpgkXPqYd5xeWoiPHr9ATavFZyRK0E0m7tW7oJC5pUQNo93_qdPfz_OoGtXsP2AtHNCRMY8TxNTwHGhSZrH0QyvCCF52QaCMIyTZL531PTkiuQru94_x13w-yKgjdNHGNyy0hA"/>
+<div class="absolute inset-0 bg-gradient-to-b from-primary/20 via-transparent to-background"></div>
+</div>
+<div class="relative z-10 text-center px-4">
+<span class="font-label text-xs uppercase tracking-[0.4em] text-white/90 mb-6 block">Bienvenidos al Origen</span>
+<h1 class="font-headline text-7xl md:text-9xl text-white font-light tracking-tighter leading-none italic mb-8 drop-shadow-2xl">
+                    Reconecta con <br/>
+<span class="not-italic font-bold">lo esencial</span>
+</h1>
+<div class="mt-12 flex flex-col items-center">
+<span class="material-symbols-outlined text-white text-3xl animate-bounce">expand_more</span>
+</div>
+</div>
+</section>
+<!-- La cosecha Section (Artisanal Process) -->
+<section class="py-32 px-12 md:px-24 bg-surface-container-low overflow-hidden" id="cosecha">
+<div class="max-w-7xl mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-16 items-center">
+<div class="md:col-span-5 relative">
+<span class="font-label text-xs uppercase tracking-[0.2em] text-secondary mb-4 block">La cosecha</span>
+<h2 class="font-headline text-5xl md:text-6xl text-primary leading-tight mb-8">Del Grano <br/> a la Taza</h2>
+<p class="font-body text-lg text-on-surface-variant leading-relaxed mb-8">
+                            Nuestra altitud única en las tierras altas de Panamá crea el microclima perfecto para el Geisha, el café más exquisito del mundo. Cada cereza es recolectada a mano en su punto exacto de madurez.
+                        </p>
+<div class="flex items-center gap-4 group cursor-pointer">
+<span class="w-12 h-px bg-secondary transition-all group-hover:w-20"></span>
+<span class="font-label text-xs uppercase tracking-widest text-secondary">Descubre el proceso</span>
+</div>
+</div>
+<div class="md:col-span-7 relative">
+<div class="aspect-[4/5] rounded-xl overflow-hidden shadow-2xl transform md:translate-x-12">
+<img alt="Freshly harvested coffee beans" class="w-full h-full object-cover transition-transform duration-[2000ms] hover:scale-105" data-alt="Close-up of sun-drenched freshly harvested Geisha coffee cherries in a rustic wooden basket held by weathered hands" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBI1PhrPlMDKdSHv4P4FpJ9aS8jBmvyTMr_kqtXC_mWzt1YrRtbImqRfRZAHZcncyGmFsJZkjqd1C269v1Q_X-ytM8V8wm6KemOVEE_5wbONTqB6SZK-OCG9gWYFEp9sfKexy2v_nEkOn6_2oI9qL94x0bTzfXB8K8lPvViKrd_AxBVtTb7ZRY5kDhFz9VPQM0S3nQLuJb1hQDdQBv3MtBSYGStKLUVoV9B66a2rxC2asgIZm_X4TF3oU8SxxlZRFw0QcOvy2MPP10"/>
+</div>
+<div class="absolute -bottom-12 -left-12 w-64 h-80 bg-surface-container-highest p-8 rounded-xl shadow-xl hidden md:block">
+<h3 class="font-headline text-2xl mb-4 italic">La Danza del Cosechador</h3>
+<p class="font-body text-sm text-on-surface-variant leading-relaxed">
+                                Un ritual que comienza con el alba, donde el respeto por la tierra dicta el ritmo de cada jornada.
+                            </p>
+</div>
+</div>
+</div>
+<!-- Pineapple Secondary Part (Asymmetric) -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-16 mt-48 items-center">
+<div class="md:col-span-6 order-2 md:order-1">
+<div class="aspect-video rounded-xl overflow-hidden shadow-2xl">
+<img alt="Tropical Pineapples in the field" class="w-full h-full object-cover" data-alt="Vibrant tropical pineapple fields during golden hour with long shadows and warm hazy sunlight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBP5F5vRwEOxakG0QRFGAT85ZG4uINkVfwQ7c7DfIctNdS6S3QV94A0LjscIdU-bgci2UmYuT9ttbryP6wreGybecoj51BMVcULVnDiuv8ywPidcae-DSs2BjcjRbE4NVJ4SifhSmZkm-N_yuXr0tFja9pJgeQuPecMCRWXcCzVlR2IGFvjyLMcvO19fvJo0JphTRaxoov_vTBMoshlL_66BaYWbfwt4Q8mW9aPI5MDnhbNgGG6PygBHFXXGSxoMloup8jIe21bnhM"/>
+</div>
+</div>
+<div class="md:col-span-5 md:offset-1 order-1 md:order-2">
+<h3 class="font-headline text-4xl mb-6">El Dulzor de la Tierra</h3>
+<p class="font-body text-lg text-on-surface-variant leading-relaxed">
+                            Nuestra piña tropical madura lentamente bajo el sol panameño, concentrando azúcares naturales y un aroma que evoca el paraíso perdido. Cultivo orgánico, alma volcánica.
+                        </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Estancias -->
+<section class="py-32 px-12 md:px-24 bg-surface" id="estancias">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row md:items-end md:justify-between gap-8 mb-16">
+<div>
+<span class="font-label text-xs uppercase tracking-[0.4em] text-secondary mb-4 block">Estancias</span>
+<h2 class="font-headline text-5xl md:text-6xl text-primary font-light">Cabañas con alma</h2>
+</div>
+<p class="font-body text-lg text-on-surface-variant max-w-xl leading-relaxed">Espacios íntimos diseñados para el descanso profundo, con terrazas privadas y vistas a la montaña.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="bg-surface-container-lowest rounded-xl p-8 shadow-xl border border-outline-variant/10">
+<h3 class="font-headline text-2xl mb-3 italic">Nido del Río</h3>
+<p class="font-body text-on-surface-variant text-sm">1 habitación · 2 personas · vista al agua</p>
+<p class="font-label text-xs uppercase tracking-widest text-secondary mt-6">Desde $140/noche</p>
+</div>
+<div class="bg-surface-container-lowest rounded-xl p-8 shadow-xl border border-outline-variant/10">
+<h3 class="font-headline text-2xl mb-3 italic">Mirador del Valle</h3>
+<p class="font-body text-on-surface-variant text-sm">2 habitaciones · 4 personas · chimenea</p>
+<p class="font-label text-xs uppercase tracking-widest text-secondary mt-6">Desde $210/noche</p>
+</div>
+<div class="bg-surface-container-lowest rounded-xl p-8 shadow-xl border border-outline-variant/10">
+<h3 class="font-headline text-2xl mb-3 italic">Casa Raíz</h3>
+<p class="font-body text-on-surface-variant text-sm">Suite privada · jacuzzi exterior · cocina</p>
+<p class="font-label text-xs uppercase tracking-widest text-secondary mt-6">Desde $260/noche</p>
+</div>
+<div class="bg-surface-container-lowest rounded-xl p-8 shadow-xl border border-outline-variant/10">
+<h3 class="font-headline text-2xl mb-3 italic">Refugio Familiar</h3>
+<p class="font-body text-on-surface-variant text-sm">3 habitaciones · 6 personas · jardín propio</p>
+<p class="font-label text-xs uppercase tracking-widest text-secondary mt-6">Desde $320/noche</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Gastronomía -->
+<section class="py-32 px-12 md:px-24 bg-surface-container-low">
+<div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-16 items-center">
+<div class="md:col-span-6">
+<img alt="Mesa local en la finca" class="w-full h-[520px] object-cover rounded-xl shadow-2xl" data-alt="Rustic farm-to-table dinner with local produce and warm candle light in a mountain finca" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDHasB94zbIPHLL-nLs37ACseR988VhX3sfQkFaPrLiOoKsRsC6fC0D_0giLN-zDUcrUetrxgwDLhCw8ibF5ta3trhBOlKgKSimubkJRFXOMtP-9l31Pj71bKhlVAlI02eavpdcQPTRmBAf-Gpyam4qSyMWXTqIRVpHahXNOwn-ZyMI6qJHtIuMZ1VtS7oRqt5H2tR6gKImQw-xVCa_JLFrDjZagb1PFfaqymOJpW4OWAWFPpxYMX2hF4tKoBsbYjJ0PBR5s4GeuT8"/>
+</div>
+<div class="md:col-span-6">
+<span class="font-label text-xs uppercase tracking-[0.4em] text-secondary mb-4 block">Gastronomía</span>
+<h2 class="font-headline text-5xl md:text-6xl text-primary font-light mb-6">Mesa de montaña</h2>
+<p class="font-body text-lg text-on-surface-variant leading-relaxed mb-8">Cocina de temporada con ingredientes del huerto, café de finca y recetas locales. Cada plato honra el ciclo natural de las Tierras Altas.</p>
+<div class="grid grid-cols-2 gap-6 text-on-surface-variant text-sm">
+<div class="flex items-center gap-3"><span class="material-symbols-outlined">local_cafe</span>Café geisha diario</div>
+<div class="flex items-center gap-3"><span class="material-symbols-outlined">spa</span>Infusiones de hierbas</div>
+<div class="flex items-center gap-3"><span class="material-symbols-outlined">restaurant</span>Menú vegetariano</div>
+<div class="flex items-center gap-3"><span class="material-symbols-outlined">outdoor_grill</span>Cenas al fuego</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Agenda -->
+<section class="py-32 px-12 md:px-24 bg-surface">
+<div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+<div class="md:col-span-5">
+<span class="font-label text-xs uppercase tracking-[0.4em] text-secondary mb-4 block">Agenda</span>
+<h2 class="font-headline text-5xl md:text-6xl text-primary font-light mb-6">Un día en Manantial</h2>
+<p class="font-body text-lg text-on-surface-variant leading-relaxed">Un ritmo suave para respirar, explorar y descansar sin prisas.</p>
+</div>
+<div class="md:col-span-7">
+<div class="space-y-6 border-l border-outline-variant/30 pl-8">
+<div class="flex items-start gap-6">
+<span class="font-label text-xs uppercase tracking-widest text-secondary">6:00</span>
+<p class="font-body text-on-surface-variant">Respiración guiada y té de hierbas en la terraza.</p>
+</div>
+<div class="flex items-start gap-6">
+<span class="font-label text-xs uppercase tracking-widest text-secondary">9:00</span>
+<p class="font-body text-on-surface-variant">Desayuno de temporada y ritual de café.</p>
+</div>
+<div class="flex items-start gap-6">
+<span class="font-label text-xs uppercase tracking-widest text-secondary">14:00</span>
+<p class="font-body text-on-surface-variant">Sendero del manantial y baño en agua fresca.</p>
+</div>
+<div class="flex items-start gap-6">
+<span class="font-label text-xs uppercase tracking-widest text-secondary">19:30</span>
+<p class="font-body text-on-surface-variant">Cena al fuego y observación de estrellas.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Experience Gallery (Editorial Scroller Style) -->
+<section class="py-32 bg-primary text-on-primary overflow-hidden" id="experiencias">
+<div class="px-12 mb-20 flex flex-col md:flex-row md:items-end justify-between gap-8">
+<div>
+<span class="font-label text-xs uppercase tracking-[0.4em] text-on-primary-container mb-4 block">Vivir la finca</span>
+<h2 class="font-headline text-6xl md:text-8xl font-light tracking-tighter">Lienzo vivo</h2>
+</div>
+<p class="max-w-md font-body text-on-primary/70 italic text-xl">
+                    "La naturaleza no es un lugar que visitar, es el hogar al que pertenecemos."
+                </p>
+</div>
+<div class="flex overflow-x-auto gap-8 px-12 pb-12 snap-x no-scrollbar">
+<!-- Card 1 -->
+<div class="flex-none w-[85vw] md:w-[600px] snap-center">
+<div class="relative aspect-[3/4] rounded-xl overflow-hidden mb-6 group">
+<img alt="Forest bathing experience" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="A person walking through a dense primeval forest with rays of light breaking through the canopy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC0A6JUQ3h8ieXwnA15isqOxA3LVib9bb10Dg4vQc-V-MTAstfp5_RTnXQP-2ym0_AtRCn4agmw-ojzdO7up4xPfawkxHBLjsv8yxS63eR3bKF5ZpfJHgih5V3q1audDc1FDFgo7z49FlAnpupB_VPoAHEioeVr_xpLBLLbIafptNiTL7LI_t0mJUwxV-qAXumrAO0zJRCmoc0M9Xdz9UskhN1TVE4Ie_LOe-77WytKzBs1qvx2z1AK6vYbpfQUpNGkLFCZY_gqo8I"/>
+<div class="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors"></div>
+<div class="absolute bottom-10 left-10">
+<span class="font-label text-[10px] uppercase tracking-widest text-white/80">Bienestar</span>
+<h4 class="text-3xl text-white font-headline mt-2 italic">Baño de Bosque</h4>
+</div>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="flex-none w-[85vw] md:w-[600px] snap-center">
+<div class="relative aspect-[3/4] rounded-xl overflow-hidden mb-6 group">
+<img alt="Organic dining under the stars" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Long rustic wooden table set for an outdoor dinner under hanging lanterns in a lush tropical garden" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC8jtLBZVpYEhsgLJSkm7CQYUAlj-JQl7SGW5eGAxzZTCgt9TVhK4j5Mg_0k69WvVz1ZQylyvcldrfWgwMkwY2Ol4w3dPtbnFp35bo8Ci6DczV5ZuF3rt5wStTSzapeIkwQbJTmIWeUxZqoekjqSUVizwswF-0J8pUz6Zn5iIvs3bIwa4HM1VG2VTsn6B3PZzzwHv9sDyCIYxisypI04FRSbFCgoX0ELWpE9vIvhSG_04nZG83Ecmjd9Unebezifd25zQ6fijMbL3I"/>
+<div class="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors"></div>
+<div class="absolute bottom-10 left-10">
+<span class="font-label text-[10px] uppercase tracking-widest text-white/80">Gastronomía</span>
+<h4 class="text-3xl text-white font-headline mt-2 italic">Cena de las Sombras</h4>
+</div>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="flex-none w-[85vw] md:w-[600px] snap-center">
+<div class="relative aspect-[3/4] rounded-xl overflow-hidden mb-6 group">
+<img alt="Birdwatching in the highlands" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Rare tropical bird with vibrant plumage perched on a mossy branch in the cloud forest" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAbIsjGpWuxXA0CHo1zu81vA1Ktcg7gxetbWqpMAAdr66IGUZjtPAF4cJBCe44Mp0fosli8itis0F72IEVq5XfA5yi5xVH9ajplz9iL96XUZVYo_X_Oh0nJ5UrGfBFFDU4XiL5Fahuo3GqqlIPNPgtOGpnzXImJgGNmE1vmQ4rr6C02io_y1J5PVsh56rN2SHTdye9rrTlf8usMA1crB2xL_8HrOZImchFVdazeoJp1KYjskisq9GIA5KlEWJNVwZ3nKFqrkNO5Ljs"/>
+<div class="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors"></div>
+<div class="absolute bottom-10 left-10">
+<span class="font-label text-[10px] uppercase tracking-widest text-white/80">Exploración</span>
+<h4 class="text-3xl text-white font-headline mt-2 italic">Avistamiento Ancestral</h4>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Alma sostenible Gallery -->
+<section class="py-32 px-12 bg-surface overflow-hidden relative" id="sostenibilidad">
+<!-- Organic Blobs -->
+<div class="absolute top-20 right-0 w-[600px] h-[600px] bg-primary-container/5 rounded-full blur-3xl -z-10"></div>
+<div class="absolute bottom-0 left-0 w-[400px] h-[400px] bg-secondary-container/10 rounded-full blur-3xl -z-10"></div>
+<div class="max-w-7xl mx-auto">
+<div class="text-center mb-24">
+<span class="font-label text-xs uppercase tracking-[0.4em] text-secondary mb-4 block">Nuestro compromiso</span>
+<h2 class="font-headline text-5xl md:text-7xl text-primary font-light">Alma sostenible</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
+<!-- Solar Element -->
+<div class="md:col-span-4 mt-20">
+<div class="bg-surface-container-lowest p-10 rounded-xl shadow-sm border border-outline-variant/10">
+<span class="material-symbols-outlined text-4xl text-secondary mb-6">light_mode</span>
+<h3 class="font-headline text-2xl mb-4">Energía de Cristal</h3>
+<p class="font-body text-on-surface-variant leading-relaxed">
+                                Capturamos la pureza del sol panameño para alimentar el 100% de nuestras operaciones, reduciendo nuestra huella al mínimo absoluto.
+                            </p>
+</div>
+</div>
+<!-- Main Image Overlay -->
+<div class="md:col-span-8 relative">
+<div class="rounded-xl overflow-hidden shadow-2xl relative z-10">
+<img alt="Sunlight through forest" class="w-full aspect-[16/9] object-cover" data-alt="Dappled sunlight filtering through a dense canopy of ancient tropical trees with vibrant green ferns below" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7Jg654sGaspVUXSTZ0L5muWRVB6QJqgZ8_MPArWL7htkeDVISCIbcQktvoopoAnYk9T9gnaEYZN1eCsQZqEWxx6vvHzrYc4idxxEp32DU4llsw6r5tMZinnpMlaXZK5vnrO83R7Xg9gsuJb7E8R2Swq2PX8zl4MSq2rJz1vca7d6cg4A8WXYV6IU_70vvs2P6mtPdMXb3AJ1reDCJ8MxNNMlQjWzZ9diHCKQBqLrcX_R1lCG3VHempnkxp6Jva2QeMYhUDKJ03ck"/>
+</div>
+<!-- Floating Text Overlay -->
+<div class="absolute -bottom-10 -right-10 bg-primary p-12 max-w-sm z-20 rounded-xl hidden lg:block">
+<h4 class="text-white font-headline text-3xl mb-4 italic">Reforestación Activa</h4>
+<p class="text-on-primary-container font-body leading-relaxed">
+                                Por cada visitante, plantamos un árbol nativo, devolviendo a la montaña su biodiversidad original.
+                            </p>
+</div>
+</div>
+<!-- Waste Management -->
+<div class="md:col-span-6 md:col-start-2 mt-12">
+<div class="flex items-start gap-8">
+<div class="w-1/2 aspect-square rounded-xl overflow-hidden">
+<img alt="Recycling and nature" class="w-full h-full object-cover" data-alt="Compost pile with organic vegetable remains returning to the earth in a sustainable farm setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD4MJO_DkJanxH31Fx-fnRudVQEVpVMEY8QV3LrzGgNQOajwxnUiIRSQ-vdLP_lKtnujc4kTAoMCyzLgyeH4E4LZXMcmaFy-k4tq5bpjSajD1k0etyfPBEOdtDJiVBIDaargP5kV2tvNzQJ3LIWhg6Va_WdorI5XtRgOrkP5M-L8YfwwkAnya2h2EnUxmIe8v9L3Go2kyVXkEE05yKsmCbGS1bpj9Bclxqj0103LTmZQArhrdugGGb6NZJBK27wzzuklQNRrkeVpVE"/>
+</div>
+<div class="w-1/2 pt-8">
+<h3 class="font-headline text-2xl mb-4 italic">Cero Residuo</h3>
+<p class="font-body text-on-surface-variant leading-relaxed">
+                                     Un sistema circular donde los desechos del café se convierten en abono para nuestra piña tropical. Nada se pierde.
+                                 </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Voices of the Manantial (Testimonials) -->
+<section class="py-32 px-12 md:px-24 bg-surface-container-low" id="testimonios">
+<div class="max-w-4xl mx-auto text-center">
+<span class="font-label text-xs uppercase tracking-[0.4em] text-secondary mb-12 block">Testimonios</span>
+<div class="relative">
+<span class="absolute -top-10 -left-10 text-9xl text-outline-variant/20 font-serif">“</span>
+<blockquote class="relative z-10">
+<p class="font-headline text-3xl md:text-4xl text-primary leading-snug italic mb-12">
+                            "Encontré un silencio que ya no existe en las ciudades. Despertar con el aroma del Geisha recién tostado y la bruma bajando por la montaña es una experiencia que redefine el lujo."
+                        </p>
+<footer class="flex flex-col items-center">
+<div class="w-20 h-20 rounded-full overflow-hidden mb-6 border-2 border-surface-bright shadow-lg">
+<img alt="Profile of a traveler" class="w-full h-full object-cover" data-alt="Close-up portrait of an elegant woman with a peaceful expression, natural lighting, soft background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBOpjpM9OBrR6JZvM1OXhpn4DIZ4_VcES1i0xcdyzHCM08L_56Fys5pLKok2M2l-nHWJIlVTre7nuPurB7_c6i12xipWpSJWtu1hw2GJNoGQ_oScKMdOSFuDPb1BJbreu3CIcG68UHr-b7PFw4yWBEptaxMJ6RxSoDqtRMFe41Rgxsyit3WA8SSkGShOvdeuwzO5Gxnn4UsW2pYK-5qq4OM90QkrUBTv5y7CrxAiSu52WVi1ei7kUgBEwU1Hc9QOwzTnneZ7va5y-4"/>
+</div>
+<cite class="not-italic font-label text-xs uppercase tracking-widest text-primary">Elena Rodriguez</cite>
+<span class="text-[10px] text-secondary uppercase tracking-[0.2em] mt-1">Traveler &amp; Architect</span>
+</footer>
+</blockquote>
+</div>
+</div>
+</section>
+<!-- The Location Section -->
+<section class="relative h-[819px] w-full bg-primary overflow-hidden flex items-center" id="ubicacion">
+<div class="absolute inset-0 opacity-40">
+<img alt="Topographic map style landscape" class="w-full h-full object-cover" data-alt="Aerial topographic view of deep green mountain ridges and valleys at dusk" data-location="Chiriquí, Panama" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBZURh_krySX3mS-DVENzQGpSx4Ui37U9P8r-PFomVhx6B3evwTnXDxxkYXcRuIbTS8vd1VcLf2bvUuWGUoEYUt-aqkhP2fJEQfnd3q9VlYyGWxSP2WHX4lvV-k-71ovqTdwGomDA_SULdqdvrbvlRSSnSH_qRakNrcyWB4KuSpqD3lo5YimEfwRF-SlYOB3-MgBQj1llexgnzeP3-Ofic4430Fs8Ol4WFaAWuKc5vtOUH3MeljJnsva1cgGnrBIPIjfC5FHXs-2tA"/>
+</div>
+<div class="relative z-10 px-12 md:px-24 w-full">
+<div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
+<div>
+<span class="font-label text-xs uppercase tracking-[0.4em] text-on-primary-container mb-4 block">El santuario</span>
+<h2 class="font-headline text-5xl md:text-7xl text-white mb-8 tracking-tighter">Coordenadas del Alma</h2>
+<div class="space-y-6">
+<div class="flex items-center gap-6 group">
+<span class="material-symbols-outlined text-on-primary-container">location_on</span>
+<p class="font-body text-xl text-white/80">Tierras Altas, Chiriquí, Panamá</p>
+</div>
+<div class="flex items-center gap-6 group">
+<span class="material-symbols-outlined text-on-primary-container">explore</span>
+<p class="font-body text-xl text-white/80">8.8471° N, 82.4419° W</p>
+</div>
+</div>
+</div>
+<div class="bg-surface/5 backdrop-blur-xl p-12 rounded-xl border border-white/10">
+<h3 class="font-headline text-2xl text-white mb-6 italic">Un Refugio Oculto</h3>
+<p class="text-white/70 font-body mb-8 leading-relaxed">
+                            Aislados del ruido pero conectados con la esencia. El Manantial se encuentra en una reserva privada accesible solo para quienes buscan la verdadera desconexión.
+                        </p>
+<a class="inline-flex items-center gap-4 text-white font-label text-xs uppercase tracking-widest border-b border-white/30 pb-2 hover:border-white transition-all" href="#">
+                            Solicitar acceso y mapa <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- FAQ -->
+<section class="py-32 px-12 md:px-24 bg-surface-container-low">
+<div class="max-w-6xl mx-auto">
+<div class="mb-16">
+<span class="font-label text-xs uppercase tracking-[0.4em] text-secondary mb-4 block">Preguntas frecuentes</span>
+<h2 class="font-headline text-5xl md:text-6xl text-primary font-light">Todo lo que necesitas saber</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="bg-surface rounded-xl p-8 shadow-xl border border-outline-variant/10">
+<h3 class="font-headline text-2xl mb-3 italic">¿Qué incluye la estadía?</h3>
+<p class="font-body text-on-surface-variant">Desayuno orgánico, acceso a senderos, ritual de café y uso de áreas comunes.</p>
+</div>
+<div class="bg-surface rounded-xl p-8 shadow-xl border border-outline-variant/10">
+<h3 class="font-headline text-2xl mb-3 italic">¿Hay actividades guiadas?</h3>
+<p class="font-body text-on-surface-variant">Sí, caminatas, visitas al cafetal y talleres artesanales (con reserva previa).</p>
+</div>
+<div class="bg-surface rounded-xl p-8 shadow-xl border border-outline-variant/10">
+<h3 class="font-headline text-2xl mb-3 italic">¿Se aceptan mascotas?</h3>
+<p class="font-body text-on-surface-variant">Aceptamos mascotas pequeñas con aviso previo y áreas designadas.</p>
+</div>
+<div class="bg-surface rounded-xl p-8 shadow-xl border border-outline-variant/10">
+<h3 class="font-headline text-2xl mb-3 italic">¿Cómo llegar?</h3>
+<p class="font-body text-on-surface-variant">Te enviamos ubicación exacta y recomendaciones de transporte al confirmar.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Contacto -->
+<section class="py-32 px-12 md:px-24 bg-surface" id="contacto">
+<div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-16 items-center">
+<div class="md:col-span-5">
+<span class="font-label text-xs uppercase tracking-[0.4em] text-secondary mb-4 block">Contacto</span>
+<h2 class="font-headline text-5xl md:text-6xl text-primary font-light mb-6">Agenda tu visita</h2>
+<p class="font-body text-lg text-on-surface-variant leading-relaxed mb-10">Escríbenos para disponibilidad, retiros privados o eventos especiales. Respondemos en menos de 24 horas.</p>
+<div class="space-y-4 text-on-surface-variant">
+<p><strong>WhatsApp:</strong> +507 6000 0000</p>
+<p><strong>Correo:</strong> hola@manantialdevida.pa</p>
+<p><strong>Ubicación:</strong> Boquete, Chiriquí</p>
+</div>
+</div>
+<div class="md:col-span-7">
+<form class="bg-surface-container-lowest rounded-xl p-8 md:p-10 shadow-xl border border-outline-variant/10">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div>
+<label class="font-label text-xs uppercase tracking-[0.3em] text-secondary block mb-3">Nombre</label>
+<input class="w-full rounded-lg border border-outline-variant/30 bg-surface px-4 py-3" type="text" />
+</div>
+<div>
+<label class="font-label text-xs uppercase tracking-[0.3em] text-secondary block mb-3">Correo</label>
+<input class="w-full rounded-lg border border-outline-variant/30 bg-surface px-4 py-3" type="email" />
+</div>
+<div>
+<label class="font-label text-xs uppercase tracking-[0.3em] text-secondary block mb-3">Fecha estimada</label>
+<input class="w-full rounded-lg border border-outline-variant/30 bg-surface px-4 py-3" type="date" />
+</div>
+<div>
+<label class="font-label text-xs uppercase tracking-[0.3em] text-secondary block mb-3">Personas</label>
+<input class="w-full rounded-lg border border-outline-variant/30 bg-surface px-4 py-3" type="number" min="1" />
+</div>
+</div>
+<div class="mt-6">
+<label class="font-label text-xs uppercase tracking-[0.3em] text-secondary block mb-3">Mensaje</label>
+<textarea class="w-full rounded-lg border border-outline-variant/30 bg-surface px-4 py-3 h-28"></textarea>
+</div>
+<button class="mt-8 bg-primary text-on-primary px-10 py-4 rounded-full text-sm font-label uppercase tracking-[0.3em] hover:opacity-90 transition-opacity">Enviar solicitud</button>
+</form>
+</div>
+</div>
+</section>
+<!-- Final CTA -->
+<section class="py-40 px-12 text-center bg-surface-bright relative" id="reserva">
+<div class="max-w-4xl mx-auto">
+<h2 class="font-headline text-5xl md:text-8xl text-primary font-light mb-12 tracking-tighter leading-none">
+                    Tu <span class="italic font-bold">desconexión</span> <br/> empieza aquí
+                </h2>
+<p class="font-body text-xl text-on-surface-variant mb-16 max-w-2xl mx-auto leading-relaxed italic">
+                    Reserva tu estancia y forma parte de la historia de nuestra tierra.
+                </p>
+<div class="flex flex-col md:flex-row items-center justify-center gap-8">
+<button class="bg-primary text-on-primary px-12 py-6 rounded-full font-label text-sm uppercase tracking-[0.2em] shadow-2xl hover:scale-105 transition-transform duration-500">
+                        Reservar experiencia
+                    </a>
+<button class="text-primary font-label text-sm uppercase tracking-[0.2em] flex items-center gap-4 hover:gap-6 transition-all group">
+                        Ver disponibilidad <span class="material-symbols-outlined group-hover:translate-x-2 transition-transform">east</span>
+</a>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer (Shared Component) -->
+<footer class="bg-[#f5f3ee] dark:bg-[#061b0e] w-full pt-32 pb-16 tonal-shift-no-borders flat no shadows">
+<div class="flex flex-col items-center text-center px-8 w-full">
+<h2 class="text-6xl font-serif tracking-tighter text-[#061b0e] dark:text-[#fbf9f4] mb-12">Finca Manantial de Vida</h2>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-12 mb-24 w-full max-w-4xl">
+<a class="text-[#737973] dark:text-[#c3c8c1] uppercase tracking-[0.2em] text-xs hover:text-[#735a3a] transition-all duration-600" href="#">Instagram</a>
+<a class="text-[#737973] dark:text-[#c3c8c1] uppercase tracking-[0.2em] text-xs hover:text-[#735a3a] transition-all duration-600" href="#">Bitácora</a>
+<a class="text-[#737973] dark:text-[#c3c8c1] uppercase tracking-[0.2em] text-xs hover:text-[#735a3a] transition-all duration-600" href="#">Privacidad</a>
+<a class="text-[#737973] dark:text-[#c3c8c1] uppercase tracking-[0.2em] text-xs hover:text-[#735a3a] transition-all duration-600" href="#">Contacto</a>
+</div>
+<p class="font-['Noto_Serif'] text-lg leading-relaxed text-[#061b0e] dark:text-[#fbf9f4] opacity-60">
+                © 2024 Finca Manantial de Vida. All rights reserved.
+            </p>
+</div>
+</footer>
+</body></html>
+
+
+
